@@ -7,7 +7,7 @@ jobs:
       - name: Output issues title
         run: echo "${{ toJSON(github.event.issue.title) }}"
       - name: Output the issues body
-        run: echo "${{ toJSON(github.event.issue.title) }}"
+        run: echo "${{ toJSON(github.event.issue.body) }}"
 
 
     
